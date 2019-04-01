@@ -1,0 +1,3 @@
+C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/hello_ar_native.dir
+C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

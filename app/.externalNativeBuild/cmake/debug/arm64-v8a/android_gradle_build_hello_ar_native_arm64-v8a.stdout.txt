@@ -1,0 +1,15 @@
+[1/2] Building CXX object CMakeFiles/hello_ar_native.dir/src/main/cpp/obj_renderer.cc.o
+C:\Users\sanje\Documents\projects\android-ndk\arcore-android-sdk\samples\hello_ar_c\app\src\main\cpp\obj_renderer.cc:162:26: warning: unused variable 'normalNr' [-Wunused-variable]
+            unsigned int normalNr = 1;
+                         ^
+C:\Users\sanje\Documents\projects\android-ndk\arcore-android-sdk\samples\hello_ar_c\app\src\main\cpp\obj_renderer.cc:160:26: warning: unused variable 'diffuseNr' [-Wunused-variable]
+            unsigned int diffuseNr = 1;
+                         ^
+C:\Users\sanje\Documents\projects\android-ndk\arcore-android-sdk\samples\hello_ar_c\app\src\main\cpp\obj_renderer.cc:161:26: warning: unused variable 'specularNr' [-Wunused-variable]
+            unsigned int specularNr = 1;
+                         ^
+C:\Users\sanje\Documents\projects\android-ndk\arcore-android-sdk\samples\hello_ar_c\app\src\main\cpp\obj_renderer.cc:163:26: warning: unused variable 'heightNr' [-Wunused-variable]
+            unsigned int heightNr = 1;
+                         ^
+4 warnings generated.
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\arm64-v8a\libhello_ar_native.so

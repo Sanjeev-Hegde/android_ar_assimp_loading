@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "hello_ar_native-Release-armeabi-v7a": {
+      "artifactName": "hello_ar_native",
+      "buildCommand": "C:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target hello_ar_native",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libhello_ar_native.so"
+    },
+    "lib_assimp-Release-armeabi-v7a": {
+      "artifactName": "lib_assimp",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\src\\main\\cpp\\lib\\armeabi-v7a\\libassimp.so"
+    },
+    "arcore-Release-armeabi-v7a": {
+      "artifactName": "arcore",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\build\\arcore-native\\jni\\armeabi-v7a\\libarcore_sdk_c.so"
+    }
+  }
+}

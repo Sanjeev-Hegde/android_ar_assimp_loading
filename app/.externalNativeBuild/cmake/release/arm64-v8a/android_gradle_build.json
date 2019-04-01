@@ -1,0 +1,100 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"arcore-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "arcore",
+			"buildType" : "release",
+			"output" : "C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\build/arcore-native/jni/arm64-v8a/libarcore_sdk_c.so",
+			"toolchain" : "4121888877"
+		},
+		"hello_ar_native-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "hello_ar_native",
+			"buildCommand" : "C:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target hello_ar_native",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -IC:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\third_party\\vulkan\\src\\libs\\glm -isystem C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\..\\..\\libraries\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/background_renderer.cc",
+					"workingDirectory" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -IC:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\third_party\\vulkan\\src\\libs\\glm -isystem C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\..\\..\\libraries\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/hello_ar_application.cc",
+					"workingDirectory" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -IC:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\third_party\\vulkan\\src\\libs\\glm -isystem C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\..\\..\\libraries\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/jni_interface.cc",
+					"workingDirectory" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -IC:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\third_party\\vulkan\\src\\libs\\glm -isystem C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\..\\..\\libraries\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/obj_renderer.cc",
+					"workingDirectory" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -IC:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\third_party\\vulkan\\src\\libs\\glm -isystem C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\..\\..\\libraries\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/plane_renderer.cc",
+					"workingDirectory" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -IC:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\third_party\\vulkan\\src\\libs\\glm -isystem C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\..\\..\\libraries\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/point_cloud_renderer.cc",
+					"workingDirectory" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dhello_ar_native_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -IC:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\third_party\\vulkan\\src\\libs\\glm -isystem C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\..\\..\\libraries\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -Wall -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/util.cc",
+					"workingDirectory" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android24 --gcc-toolchain=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhello_ar_native_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -IC:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\third_party\\vulkan\\src\\libs\\glm -isystem C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\..\\..\\libraries\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/glad.c",
+					"workingDirectory" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/build/intermediates/cmake/release/obj/arm64-v8a/libhello_ar_native.so",
+			"toolchain" : "4121888877"
+		},
+		"lib_assimp-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_assimp",
+			"buildType" : "release",
+			"output" : "C:/Users/sanje/Documents/projects/android-ndk/arcore-android-sdk/samples/hello_ar_c/app/src/main/cpp/lib/arm64-v8a/libassimp.so",
+			"toolchain" : "4121888877"
+		}
+	},
+	"toolchains" : 
+	{
+		"4121888877" : 
+		{
+			"cCompilerExecutable" : "C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/sanje/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "lib_assimp-Debug-arm64-v8a": {
+      "artifactName": "lib_assimp",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\src\\main\\cpp\\lib\\arm64-v8a\\libassimp.so"
+    },
+    "arcore-Debug-arm64-v8a": {
+      "artifactName": "arcore",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\build\\arcore-native\\jni\\arm64-v8a\\libarcore_sdk_c.so"
+    },
+    "hello_ar_native-Debug-arm64-v8a": {
+      "artifactName": "hello_ar_native",
+      "buildCommand": "C:\\Users\\sanje\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target hello_ar_native",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\sanje\\Documents\\projects\\android-ndk\\arcore-android-sdk\\samples\\hello_ar_c\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libhello_ar_native.so"
+    }
+  }
+}

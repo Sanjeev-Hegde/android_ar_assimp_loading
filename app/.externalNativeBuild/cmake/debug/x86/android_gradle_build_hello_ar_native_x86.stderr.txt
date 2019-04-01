@@ -1,0 +1,1 @@
+ninja: error: '../../../../src/main/cpp/lib/x86/libassimp.so', needed by '../../../../build/intermediates/cmake/debug/obj/x86/libhello_ar_native.so', missing and no known rule to make it

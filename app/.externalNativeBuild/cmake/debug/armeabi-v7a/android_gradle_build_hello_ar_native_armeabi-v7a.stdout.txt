@@ -1,0 +1,17 @@
+[1/2] Building CXX object CMakeFiles/hello_ar_native.dir/src/main/cpp/obj_renderer.cc.o
+In file included from C:\Users\sanje\Documents\projects\android-ndk\arcore-android-sdk\samples\hello_ar_c\app\src\main\cpp\obj_renderer.cc:19:
+../../../../src/main/cpp/model.h:231:12: warning: variable 'format' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+                else if (nrComponents == 4)
+                         ^~~~~~~~~~~~~~~~~
+../../../../src/main/cpp/model.h:235:34: note: uninitialized use occurs here
+                glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
+                                               ^~~~~~
+../../../../src/main/cpp/model.h:231:8: note: remove the 'if' if its condition is always true
+                else if (nrComponents == 4)
+                     ^~~~~~~~~~~~~~~~~~~~~~
+../../../../src/main/cpp/model.h:226:16: note: initialize the variable 'format' to silence this warning
+                GLenum format;
+                             ^
+                              = 0
+1 warning generated.
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\armeabi-v7a\libhello_ar_native.so
